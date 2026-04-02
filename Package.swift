@@ -10,7 +10,7 @@ let ddateURL = "https://github.com/d-date/google-mlkit-swiftpm/releases/download
 
 let package = Package(
     name: "MLKitEntityExtraction",
-    platforms: [.iOS(.v16)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(name: "MLKitEntityExtraction", targets: ["MLKitEntityExtractionWrapper"]),
     ],
