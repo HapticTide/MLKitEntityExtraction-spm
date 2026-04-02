@@ -1,3 +1,3 @@
-// Re-export MLKitEntityExtraction framework
-@_exported import MLKitEntityExtraction_Binary
-@_exported import MLKitCommon_Binary
+// Umbrella target — no re-exports needed.
+// Binary target modules (MLKitEntityExtraction, MLKitCommon, etc.)
+// are automatically available to consumers through target dependencies.
